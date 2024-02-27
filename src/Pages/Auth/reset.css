@@ -1,0 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* overflow-y: hidden; */
+    height: 100%;
+    overflow-x: hidden;
+}
+
+
+
+.mainContainer{
+    display: flex;
+}
+.left{
+    width: 50%;
+    /* align-items: center; */
+    
+}
+.left-mid-block{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+  
+
+.name{
+    margin: 0.5rem 0 1rem 90px;
+    display: flex;
+    font-size: 48px;
+    font-family: cookie;
+    font-weight: 400;
+}
+.m-1{
+    /* margin: 0 0 1rem 0;
+    font-size: 40px;
+    font-family:DM Sans;
+    color:  #024744;
+    font-weight: 700; */
+}
+
+.m-2{
+    margin: 0 0 0.5rem 0;
+}
+.auth-buttons .google-button {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #40ABA4;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 430px;
+    border-radius: 12px;
+  }
+  
+  .auth-buttons .google-icon {
+    height: 20px; /* Set the desired height */
+    margin: 0 10px 0 6rem; /* Add some margin to separate the icon from the text */
+  }
+  .apple-button {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #40ABA4;
+    background-color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 430px;
+    border-radius: 12px;
+  }
+  
+  .apple-button img {
+    height: 20px; /* Set the desired height */
+    margin: 0 10px 0 6rem; /* Adjust the margin according to your design */
+  }
+  
+  
+  hr{
+    width: 60px;
+    color: black;
+  }
+  .lines {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+  }
+  
+  .lines hr {
+    flex: 1;
+    margin: 0 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .s-o{
+    margin:0 0 1rem 0;
+  }
+  #input-2>.fa-regular{
+    margin: 5px 0 0 0;
+  }
+  .fa-regular{
+    margin: 15px 0 0 0;
+    
+  }
+    
+
+  
+  .first-input,
+  .second-input {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .second-input > .fa-regular {
+    position: absolute;
+    top: calc(50% + 5px); /* Add 5px to the top position */
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    margin: 4px 0 0 0;
+}
+ 
+
+  .forgot-password>a{
+    display: flex;
+    justify-content: flex-end;
+    color: #024744;
+    font-family: DM Sans;
+  }
+ .sign-up{
+    color: #40ABA4;
+    font-family: DM Sans;
+ }
+ .sign-up>a{
+    color: #17807a;
+    font-weight: 700;
+ }
+
+
+ 
